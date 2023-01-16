@@ -1,0 +1,28 @@
+CRITICAL - 2022-12-21 08:53:35 --> Undefined array key "nama"
+in APPPATH\Views\analisa.php on line 103.
+ 1 APPPATH\Views\analisa.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Views\\analisa.php', 103)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\analisa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('analisa', [], true)
+ 5 APPPATH\Controllers\Analisa.php(83): view('analisa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Analisa->prosesdata('Desember 2022')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 08:55:31 --> Undefined array key 1
+in APPPATH\Controllers\Analisa.php on line 90.
+ 1 APPPATH\Controllers\Analisa.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\Analisa.php', 90)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Analisa->cetakdata([...], '2022')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 08:55:45 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Analisa.php on line 170.
+ 1 APPPATH\Controllers\Analisa.php(170): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Analisa.php', 170)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Analisa->cetakdata('Desember 2022')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
